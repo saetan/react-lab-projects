@@ -1,6 +1,6 @@
 # Multitple React Apps
 
-Homepage: https://saetan.github.io/react-lab-projects/react-shopping-cart-with-input/build/
+Homepage: https://saetan.github.io/react-lab-projects/
 
 
 ## Rules
