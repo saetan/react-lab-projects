@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAGA,KAEE,iBACF","file":"main.ccc264a2.chunk.css","sourcesContent":["/* @import url(https://unpkg.com/nes.css/css/nes.css);\n@import url(https://fonts.googleapis.com/css?family=Press+Start+2P); */\n\nbody {\n  /* font-family: \"Press Start 2P\", cursive; */\n  text-align: center;\n}"]}
