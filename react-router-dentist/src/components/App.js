@@ -14,16 +14,18 @@ const App = () => {
       </nav>
       <div>
 
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route path='/procedures'>
-          <Procedures />
-        </Route>
-        <Route path='/contact'>
-          <Contact />
-        </Route>
-        <Redirect to="/" />
+        <Switch>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route path='/procedures'>
+            <Procedures />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
 
       </div>
     </div>
