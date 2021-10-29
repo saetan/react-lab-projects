@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 import Controls from "./Controls";
 import Light from "./Light";
 import { createStore } from "redux";
@@ -21,25 +21,25 @@ const lightReducer = (state, action) => {
       return {
         ...state,
         activeLight: state.lightValues[0],
-        numberOfClicks: (state.numberOfClicks += 1)
+        numberOfClicks: (state.numberOfClicks + 1)
       };
     case "SET_LOW":
       return {
         ...state,
         activeLight: state.lightValues[1],
-        numberOfClicks: (state.numberOfClicks += 1)
+        numberOfClicks: (state.numberOfClicks + 1)
       };
     case "SET_MED":
       return {
         ...state,
         activeLight: state.lightValues[2],
-        numberOfClicks: (state.numberOfClicks += 1)
+        numberOfClicks: (state.numberOfClicks + 1)
       };
     case "SET_HIGH":
       return {
         ...state,
         activeLight: state.lightValues[3],
-        numberOfClicks: (state.numberOfClicks += 1)
+        numberOfClicks: (state.numberOfClicks + 1)
       };
     case "RESET":
       return {
